@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Home.scss'
 import MovieListing from '../MovieListing/MovieListing'
 
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { fetchShows, fetchMovies } from '../../features/Movie/MovieSlice'
 function Home() {
     const dispatch = useDispatch()
